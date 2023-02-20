@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form
+      action="./demo.html"
+      method="get"
+      target="_blank"
+      enctype="multipart/form-data"
+    >
+      <h1>Forms</h1>
+      <label for="name"
+        >Name: <input type="text" name="name" placeholder="Enter Name" /></label
+      ><br /><br />
+
+      <label for="Email"
+        >Email:
+        <input type="email" name="email" placeholder="Enter Email" /></label
+      ><br /><br />
+
+      <label for="Password"
+        >Password: <input type="password" placeholder="password" /></label
+      ><br /><br />
+
+      <label
+        >Languages <br /><br />
+
+        <input type="radio" name="Language" id="react" value="react" />React
+        <br />
+        <input
+          type="radio"
+          name="Language"
+          id="angular"
+          value="angular"
+        />Angular <br />
+        <input type="radio" name="Language" id="vue" value="vue" />Vue
+        <br /><br />
+      </label>
+
+      <label
+        >Course <br /><br />
+
+        <input type="checkbox" name="mern" id="mern" />MERN <br />
+        <input type="checkbox" name="mevn" id="mevn" />MEVN <br />
+        <input type="checkbox" name="mean" id="mean" />MEAN <br />
+      </label>
+      <br />
+
+      <label
+        >Field <br />
+
+        <select name="Field" id="field">
+          <option value="front end">Front End</option>
+          <option value="back end">Back End</option>
+        </select> </label
+      ><br /><br /><br />
+
+      <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea
+      ><br /><br />
+
+      <label for="number"
+        >Number:
+
+        <input type="tel" name="number" id="number" required /> </label
+      ><br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+    <br><br>
+
+    <a href="./index2table.html"><h2>Click Here</h2></a>
+  </body>
+</html>
